@@ -1,0 +1,67 @@
+		body{
+			margin: 0px;
+		}
+
+		.container h1{
+			margin: auto;
+			max-width: 3000px;
+			text-align: center;
+			margin-top: 5%;
+			font-size: 5em;
+		}
+
+		.tite h1{
+			font-size: 2em;
+			margin-top: -7%;
+			margin-right: 13%;
+			text-align: center;
+		}
+
+		.container h2{
+			margin: auto;
+			max-width: 900px;
+			font-size: 4.5em;
+			text-align: center;
+					
+		}
+
+
+
+		header{
+			background-color: #000;
+			background-image: url(img/campo.jpg);
+			color: #fff;
+			padding-top: 20px;
+			padding-bottom: 20px;
+			height: 200px;
+
+		}
+
+		.menu-menu-container ul{
+			margin: 0px;
+			padding: 0px;
+			list-style: none;
+		}
+
+		.menu-menu-container ul li{
+			display: inline-block;
+			padding: 20px;
+		}
+
+		.menu-menu-container ul li:hover{
+			background-color: #bbb;
+		}
+
+		.menu-menu-container ul li a{
+			text-decoration: none;
+			color: #000;
+		}
+
+		.menu-menu-container{
+			border-bottom: 1px solid #999;
+		}
+
+		.titulo h1{
+			font-size: 2em;
+			text-align: center;
+		}
