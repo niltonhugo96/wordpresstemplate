@@ -3,18 +3,15 @@
 <head>
 	<title>Tema Personalizado</title>
 	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
 </head>
 <body>
 
-<!--<div class="container">
-
-		<img width="100" src="<?php bloginfo('template_url'); ?>/img/futebol.jpg">
-</div> -->
-	
-	<header>
+<header>
 		<div class="container">
 			
-			<h1>Esportes</h1>
+			<br>
+			<h1>Informática</h1>
 
 		</div>
 
@@ -30,7 +27,7 @@
 
 	<?php wp_nav_menu( $defaults ); ?>
 
-	<div class="titulo">
+	<div class="container">
 
 
 	

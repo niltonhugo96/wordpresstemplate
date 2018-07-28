@@ -1,7 +1,9 @@
 <?php get_header(); ?>
+
+	
 		
 		<section class="content">
-			<h2>Noticias</h2>
+			
 
 			<?php //IMPRIMIR POSTS ?>
 
@@ -21,18 +23,18 @@
 					<?php endif; ?>
 
 					</section>
+				</div>
 
-			<br>
+					<div class="menu-inicio">
 
-			<div class="tite">
+					<h1> Aqui você encontra a maior variedade de produtos</h1>
 
-		<a href="https://globoesporte.globo.com/futebol/selecao-brasileira/noticia/tite-renova-com-a-selecao-brasileira-ate-a-copa-do-mundo-de-2022.ghtml"/><img width="300" src="<?php bloginfo('template_url'); ?>/img/tite.jpg">			
-		<h1>Tite renova com a seleção brasileira até a Copa do Mundo de 2022</h1>	
-		
-		</div> 	
+						<img width="1000" height="500" src="<?php bloginfo('template_url'); ?>/img/produtos.png" />
 
-			
-		
+					</div>
+
+
+					
 <?php get_sidebar(); ?>
 
 <?php get_footer(); ?>

@@ -1,41 +1,32 @@
+		/* Inicio */
+
 		body{
 			margin: 0px;
 		}
 
-		.container h1{
-			margin: auto;
-			max-width: 3000px;
-			text-align: center;
-			margin-top: 5%;
-			font-size: 5em;
-		}
-
-		.tite h1{
-			font-size: 2em;
-			margin-top: -7%;
-			margin-right: 13%;
-			text-align: center;
-		}
-
-		.container h2{
+		.container {
 			margin: auto;
 			max-width: 900px;
-			font-size: 4.5em;
-			text-align: center;
-					
+			
 		}
 
-
+		.content{
+			font-size: 1em;
+		}
 
 		header{
 			background-color: #000;
-			background-image: url(img/campo.jpg);
-			color: #fff;
-			padding-top: 20px;
-			padding-bottom: 20px;
-			height: 200px;
+			background-image: url(img/informatica.jpg);
+			color: #BFEFFF;
+			padding-top: 0px;
+			padding-bottom: 70px;
+			height: 150px;
+			text-align: center;
+			font-size: 1.5em;		
+			font-family: 'Gloria Hallelujah', cursive;
 
 		}
+
 
 		.menu-menu-container ul{
 			margin: 0px;
@@ -61,7 +52,57 @@
 			border-bottom: 1px solid #999;
 		}
 
-		.titulo h1{
+		 /*Conteudo do Inicio*/
+		.menu-inicio{
+			text-align: center;
+			font-size: 2em;
+
+		}
+
+		/*Fim do Inicio*/
+		
+		/* Titulos das Páginas */
+		.titulo-pages h1{
 			font-size: 2em;
 			text-align: center;
+			background-image: url(img/informatica.jpg);
+			color:white;
+			padding-top: 25px;
+			padding-bottom: 25px;			
 		}
+
+		/* Visual do comentário */
+
+		.comment{
+		list-style: none;
+		padding: 20px;
+		margin-bottom: 20px;
+		background-color: #eeeeee;
+		}
+
+		.comment .comment{
+		margin-top: 20px;
+		list-style: none;
+		background-color: #eeeeee;
+		}
+
+		/*Fim dos comentários*/
+
+		/* Posts Recentes*/
+
+		.widget li{
+			text-align: right;
+			list-style: none;
+			font-size: 1.2em;			
+		}
+		.widget h3{
+			text-align: right;
+			list-style: none;
+			font-size: 1.4em;
+		}
+		/*Fim do Post*/
+
+		
+
+		
+		
